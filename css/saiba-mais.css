@@ -1,0 +1,16 @@
+.saiba-mais {
+    padding: 200px 20px 0 20px;
+    margin-bottom: 300px;
+}
+
+.saiba-mais h2 {
+    font-size: 18px;
+}
+
+.saiba-mais-line {
+    flex-direction: column;
+}
+
+iframe {
+    max-width: 100%;
+}

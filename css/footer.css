@@ -1,0 +1,20 @@
+/*
+/* FOOTER 
+*/
+
+.footer {
+    background: #fff;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    color: red;
+}
+
+.footer-line {
+    text-align: center;
+}

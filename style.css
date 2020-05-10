@@ -1,0 +1,104 @@
+@import url("css/header.css");
+@import url("css/slider.css");
+@import url("css/blog.css");
+@import url("css/contato.css");
+@import url("css/footer.css");
+@import url("css/sobre.css");
+@import url("css/saiba-mais.css");
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #003265;
+    ;
+}
+
+h2 {
+    font-size: 35px;
+    color: #4E7094;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* 
+/* ### CONTENT ###
+*/
+
+.content {
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrap {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content-line {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+}
+
+.content-line--blog {
+    align-items: center;
+}
+
+.content-column {
+    display: flex;
+    width: auto;
+}
+
+.content-column--one {
+    max-width: 80%;
+}
+
+.content-column--two {
+    max-width: 20%;
+    padding-left: 40px;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.content-column--two .blog-post {
+    margin: 20px 0;
+}
+
+
+/* 1024px */
+
+@media (max-width: 1024px) {
+    .content-line {
+        flex-direction: column;
+    }
+    h2 {
+        padding: 0 20px;
+    }
+    .content-column--one {
+        max-width: 100%;
+        /*padding: 20px;*/
+    }
+    .content-column--two {
+        max-width: 100%;
+        margin: 40px 0px;
+    }
+    .content-column--two {
+        padding-left: 0px;
+    }
+}
